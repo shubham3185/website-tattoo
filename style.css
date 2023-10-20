@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.art{
+    background-image: linear-gradient(rgba(2, 2, 27,0.5), rgba(3, 3, 65,0.7)), url('https://business.yelp.com/wp-content/uploads/2022/05/lp-ban-woman-getting-arm-tattoo-1200x630.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+}
+header{
+    background-color: rgb(240, 235, 245);
+}
+nav{
+    background-color: rgb(22, 19, 19);
+    
+}
+.span{
+    /* background-color: rgb(177, 49, 49); */
+    color: white;
+    margin-right: 80px;
+    
+}
+.hom ul{
+    color: white;
+    background-color: rgb(15, 2, 2);
+
+}
+
+.hom li .active:hover{
+    background-color:rgb(179, 39, 39);
+    /* width: 80px; */
+    color: rgb(255, 252, 252);
+    font-size: larger;
+}
+/* .container1 .box{
+    width: 400px;
+    padding: 30px;
+} */
+.art h3{
+    font-family: cursive;
+}
+
+.design .boxi:hover{
+    /* font-size: xx-large; */
+    cursor: pointer;
+    width: 340px;
+}
+
+.dbox h4{
+    background-color: rgb(218, 173, 28);
+    width: auto;
+}
+
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(15, 197, 173, 0.959);
+}
+/* @media screen and (mai-width:300px) and (max-width:500px)
+{
+    .container2 .card{
+        width: 300px;
+    }
+} */
+
+/* open testimonial */
+.container3{
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+    background-color: rgb(221, 114, 106);
+}
+.container3 .row img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 10px;
+
+}
+.container3 .row .star{
+    font-size: 25px;
+    background-color: rgb(222, 227, 240);
+}
+.container3 h1{
+    /* margin: 10px;
+    padding: 10px; */
+    border-bottom: 2px solid red;
+}
+/* close testimonial */
+
+footer a{
+    text-decoration: none;
+}
